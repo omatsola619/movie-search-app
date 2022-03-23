@@ -1,0 +1,14 @@
+.movie-app .row{
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.movie-app img {
+  width: 300px;
+  height: 300px;
+}
+.movie-app{
+    margin-bottom: 48px;
+}
+.movie-app .row::-webkit-scrollbar {
+    display: none;
+  }
